@@ -21,27 +21,33 @@ When Kali Linux's package manager (`apt`) breaks due to expired or missing GPG k
 
 ## Installation
 
-### One-liner install
+## Installation
+
+### Quick One-Liner
+
+To download, make executable, and run in one step:
 
 ```
-curl -o AptFixer.sh https://raw.githubusercontent.com/ThinkCyberProjects/AptFixer/main/AptFixer.sh && chmod +x AptFixer.sh
+curl -sSLO https://raw.githubusercontent.com/ThinkCyberProjects/AptFixer/main/AptFixer.sh && chmod +x AptFixer.sh && sudo ./AptFixer.sh
 ```
 
-### Step-by-step
+### Manual Installation (Step-by-Step)
 
-1. Download the script:
+1. **Download the script:**
    ```
-   curl -o AptFixer.sh https://raw.githubusercontent.com/ThinkCyberProjects/AptFixer/main/AptFixer.sh
+   curl -sSLO https://raw.githubusercontent.com/ThinkCyberProjects/AptFixer/main/AptFixer.sh
    ```
-2. Make it executable:
+
+2. **Make it executable:**
    ```
    chmod +x AptFixer.sh
    ```
 
-3. Run it with root privileges:
+3. **Run it with root privileges:**
    ```
    sudo ./AptFixer.sh
    ```
+
 
 ## Usage
 
