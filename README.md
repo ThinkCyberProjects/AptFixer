@@ -21,7 +21,6 @@ When Kali Linux's package manager (`apt`) breaks due to expired or missing GPG k
 
 ## Installation
 
-## Installation
 
 ### Quick One-Liner
 
